@@ -69,6 +69,7 @@ for (i in 1:nrow(subdata)) {
 
 ## Check for NA's
 good <- nrow(subdata[(complete.cases(subdata)),])
+## None found
 
 ## Create summary table for activity and subject
 avgsubdata <- aggregate(subdata[,c(-1,-2)], list("subjectID"= subdata$Subject,"activity"=subdata$Activity),mean)

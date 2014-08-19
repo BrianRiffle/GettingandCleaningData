@@ -1,6 +1,8 @@
 ## See readme.md for instruction regarding this script.
 ## This script must be run from the working directory containing the UCI HAR Dataset folder
 
+## The author of the code realizes that more compact methods could be utliled to complete these 
+## tasks but belives that the present form is easier for new R users to follow. 
 
 ## Capurtes the working directory
 working <- getwd()

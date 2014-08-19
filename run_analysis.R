@@ -1,3 +1,7 @@
+## See readme.md for instruction regarding this script.
+## This script must be run from the working directory containing the UCI HAR Dataset folder
+
+
 ## Capurtes the working directory
 working <- getwd()
 setwd("UCI HAR Dataset")

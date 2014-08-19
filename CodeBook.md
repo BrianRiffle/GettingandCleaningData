@@ -24,9 +24,16 @@ This data consists of numerous measurements taken, in three dimensitons from the
 
 
 ### Data Descriptions
-*The subject id identifies for which of the 30 participants the data was collected
-*The activity identifies the activity in which that participant was engaged at the time of data collection
-*These identifiers are followed by 561 specific data types.  See the features_info.txt file in the UCI HAR Dataset folder
+The subject id identifies for which of the 30 participants the data was collected
+The activity identifies the activity in which that participant was engaged at the time of data collection
+These identifiers are followed by 561 specific data types.  See the features_info.txt file in the UCI HAR Dataset folder
 for more detailed information
 
-### 
+### Utilized Data
+For the purposes of this course project only  79 variables regarding the standard deviation and the mean were utilized.
+This data set contained no NA's
+
+### Returned Data
+The script returns a text file containing the data grouped by subject and activity with the mean of each of the 79 variables reported.
+
+
